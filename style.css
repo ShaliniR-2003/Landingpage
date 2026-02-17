@@ -1,0 +1,78 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HERO BACKGROUND */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(135deg, #2b2bd6, #1a1aa8);
+  padding-top: 100px;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+/* PURCHASE BUTTON */
+.purchase-btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+/* LEFT TEXT */
+.main-heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sub-text {
+  font-size: 16px;
+  max-width: 450px;
+}
+
+/* LEARN BUTTON */
+.learn-btn {
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+
+/* SIGNUP CARD */
+.signup-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* INPUT STYLE */
+.form-control {
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+/* SMALL TEXT */
+.small-text {
+  font-size: 13px;
+}
+
+/* SIGN IN BUTTON */
+.sign-btn {
+  background: #4a3aff;
+  color: white;
+  border-radius: 25px;
+}
+
+/* GOOGLE BUTTON */
+.google-btn {
+  background: linear-gradient(90deg, #5f5fff, #7a7aff);
+  color: white;
+  border-radius: 25px;
+}
