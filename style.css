@@ -4,9 +4,10 @@ body {
 
 /* HERO BACKGROUND */
 .hero-section {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(135deg, #2b2bd6, #1a1aa8);
-  padding-top: 100px;
+  padding-top: 120px;
+  padding-bottom: 40px;
 }
 
 /* NAVBAR */
@@ -75,4 +76,32 @@ body {
   background: linear-gradient(90deg, #5f5fff, #7a7aff);
   color: white;
   border-radius: 25px;
+}
+
+/* ✅ MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  .hero-section {
+    text-align: center;
+    padding-top: 140px;
+  }
+
+  .main-heading {
+    font-size: 34px;
+  }
+
+  .sub-text {
+    margin: 0 auto;
+  }
+
+  .signup-card {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .nav-link {
+    margin-right: 0;
+    padding: 10px 0;
+  }
+
 }
