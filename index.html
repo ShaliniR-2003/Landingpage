@@ -65,36 +65,39 @@
 
       <!-- RIGHT SIGNUP CARD -->
       <div class="col-md-6 d-flex justify-content-md-center">
-        <div class="signup-card">
+  <div class="signup-card">
 
-          <h4 class="text-center mb-3">Sign Up Now</h4>
+    <h4 class="text-center mb-3">Sign Up Now</h4>
 
-          <input type="email" class="form-control mb-3" placeholder="Your Email">
-          <input type="password" class="form-control mb-3" placeholder="Your Password">
+    <!-- ✅ SINGLE LOGIN FORM -->
+    <form action="/login" method="POST">
+      <input type="email" name="email" class="form-control mb-3" placeholder="Your Email" required>
+      <input type="password" name="password" class="form-control mb-3" placeholder="Your Password" required>
 
-          <div class="form-check mb-3 text-start">
-            <input class="form-check-input" type="checkbox">
-            <label class="form-check-label small-text">
-              I agree to the terms of services
-            </label>
-          </div>
-
-          <button class="btn sign-btn w-100 mb-2">Sign In</button>
-          <p class=" text-center small-text" style="color: grey;">
-            --------------- or --------------
-          </p>
-
-          <button class="btn google-btn w-100 mb-3">
-            Login via Google
-          </button>
-
-          <p class="text-center small-text">
-            Do you have an Account? <a href="#">Sign In</a>
-          </p>
-
-        </div>
+      <div class="form-check mb-3 text-start">
+        <input class="form-check-input" type="checkbox" required>
+        <label class="form-check-label small-text">
+          I agree to the terms of services
+        </label>
       </div>
 
+      <button type="submit" class="btn sign-btn w-100 mb-2">Sign In</button>
+    </form>
+
+    <p class="text-center small-text" style="color: grey;">
+      --------------- or --------------
+    </p>
+
+    <button class="btn google-btn w-100 mb-3">
+      Login via Google
+    </button>
+
+    <p class="text-center small-text">
+      Do you have an Account? <a href="#">Sign In</a>
+    </p>
+
+  </div>
+</div>
     </div>
   </div>
 </section>
